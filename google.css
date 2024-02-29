@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+}
+
+
+.iphone{
+    background-image: url('./Img/google/google.jpeg');
+    background-size: cover;
+    background-position: center;
+    border: 8px solid;
+    border-color: rgb(66, 66, 66);
+    width: 320px;
+    border-radius: 3rem;
+
+
+    margin: auto;
+    top: 50%;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.ilha{
+
+
+    width: 90px;
+    margin-left: 105px;
+    border-radius: 0% 0% 10rem 10rem;
+    align-items: center;
+    border: 8px solid;
+    border-color: rgb(66, 66, 66);
+}
+
+.btn1{
+    margin-left: 3px;
+    width: 82px;
+    border: 1px solid;
+    border-color: aliceblue;
+}
+
+.voltar{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 9rem;
+    border: 5px solid;
+    background-color: rgb(68, 68, 68);
+    border-color: rgb(68, 68, 68);
+    margin-bottom: 5px;
+    margin-left: 149px;
+}
+
+a{
+    font-size: 100px;
+}
+
+.screen {
+    height: 550px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}

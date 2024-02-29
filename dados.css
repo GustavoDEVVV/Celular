@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+body {
+    background-color: black;
+    font-family: 'Poppins';
+    overflow: hidden;
+}
+
+
+.iphone {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    border: 8px solid;
+    border-color: rgb(66, 66, 66);
+    width: 320px;
+    border-radius: 3rem;
+    overflow: scroll;
+    overflow-x: hidden;
+
+    margin: auto;
+    top: 50%;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.custom-scrollbar {
+    overflow-y: auto;
+    height: 540px;
+}
+
+.custom-scrollbar .scroll-content {
+    padding-right: 5px; 
+}
+
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 2px;
+}
+
+::-webkit-scrollbar {
+    width: 8px; 
+    height: 2px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #0ef; 
+    border-radius: 2px; 
+}
+
+
+.ilha {
+    width: 90px;
+    margin-left: 105px;
+    border-radius: 0% 0% 10rem 10rem;
+    align-items: center;
+    border: 8px solid;
+    margin-bottom: 10px;
+    border-color: rgb(66, 66, 66);
+}
+
+.btn1 {
+    margin-left: 3px;
+    width: 82px;
+    border: 1px solid;
+    border-color: aliceblue;
+}
+
+.voltar{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 9rem;
+    border: 5px solid;
+    background-color: rgb(68, 68, 68);
+    border-color: rgb(68, 68, 68);
+    margin-bottom: 9px;
+    margin-left: 149px;
+}
+
+.voltar_bnt{
+    font-size: 100px;
+}
+
+.screen {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav a {
+
+    color: aliceblue;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 6px;
+    transition: .5s;
+}
+
+nav a:hover {
+
+    color: #0ef;
+
+}
+
+nav a span {
+
+    left: 0;
+    width: 100%;
+    border-bottom: 2px solid #0ef;
+    border-radius: 15px;
+    transform: scale(0) translate Y(50px);
+    opacity: 0;
+    transition: .5s;
+}
+
+nav ashover span {
+
+    transform: scale(1) translate y(0);
+    opacity: 1;
+}
+
+.card {
+
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-radius: 24px;
+    overflow: hidden;
+    width: 90%;
+    height: 30vh;
+    box-shadow: #0ef 0px 5px 15px;
+}
+
+.background img {
+    width: 50%;
+    height: 90%;
+}
+
+.content {
+    flex: 3 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 16px;
+}
+
+.content>h1 {
+    color: rgba(0, 0, 0, 0.624);
+    font-size: 1em;
+}
+
+img {
+
+    width: 100px;
+    height: 90px;
+    border-radius: 50px;
+    box-shadow: #0ef 0px 5px 15px;
+}
+
+p {
+    color: aliceblue;
+    overflow-wrap: break-word;
+    margin: 8px;
+}
+
+
+.Sbm{
+    color: aliceblue;
+    border-bottom: 2px solid #0ef;
+}
+
+.txt-img {
+    gap: 9px;
+    display: flex;
+    margin: 8px;
+}
+
+ul {
+    list-style-type: disc;
+    color: #0ef;
+    padding: 0%;
+    margin: 0%;
+}
+
+.link:hover{
+    color: #0ef;
+}
+
+.link{
+    transition: .5s;
+}
+
+a{
+    text-decoration: none;
+}
+
+#voltar_bnt{
+
+    font-size: 100px;
+}
